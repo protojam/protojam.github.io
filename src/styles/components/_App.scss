@@ -1,0 +1,15 @@
+& {
+	min-height: 100vh;
+	background: var(--clr-primary-400);
+
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 4rem;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-image {
+	max-width: 20rem;
+}

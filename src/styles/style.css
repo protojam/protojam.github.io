@@ -1,5 +1,5 @@
 /* Import fonts */
-@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Red+Hat+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Red+Hat+Display:wght@200;300;400;500;600;700;800;900&display=swap");
 :root {
   --clr-light-100: #ffffff;
   --clr-primary-100: #c996cc;
@@ -8,14 +8,16 @@
   --clr-primary-400: #1c0c5b;
   --clr-text-100: #383838;
   --clr-text-200: #000000;
-  --font-heading: "Red Hat Display", sans-serif;
-  --font-paragraph: "Anonymous Pro", monospace;
+  --font-main: "Red Hat Display", sans-serif;
+  --font-accent: "Anonymous Pro", monospace;
   --fs-100: 0.875rem;
-  --fs-200: 1.25rem;
+  --fs-200: 1rem;
   --fs-300: 1.5rem;
-  --brk-small: 35em;
-  --brk-medium: 50em;
-  --brk-large: 65em;
+  --fs-400: 2.25rem;
+  --brk-small: 35rem;
+  --brk-medium: 50rem;
+  --brk-large: 65rem;
+  --max-width: 100rem;
 }
 
 /* Global resets */
@@ -85,23 +87,43 @@ select {
   }
 }
 h1 {
-  font-family: var(--font-heading);
+  font-family: var(--font-main);
   font-size: var(--fs-300);
   font-weight: 600;
-  text-transform: uppercase;
-  color: var(--clr-light-100);
 }
 
 p {
-  font-family: var(--font-paragraph);
-  font-weight: 300;
-  font-size: var(--fs-100);
-  color: var(--clr-light-100);
+  font-family: var(--font-main);
+  font-size: var(--fs-200);
 }
 
 .none {
   display: none !important;
   height: 0 !important;
+}
+
+a.solid {
+  color: var(--clr-light-100);
+  background: var(--clr-primary-400);
+  padding: 0.5rem 1.75rem;
+  border-radius: 0.625rem;
+  font-weight: 600;
+  font-family: var(--font-main);
+  text-decoration: none;
+  font-size: var(--fs-200);
+}
+a.solid:hover, a.solid:focus {
+  background: var(--clr-primary-300);
+}
+
+.divider {
+  width: 100vw;
+}
+
+.max-width {
+  max-width: var(--max-width);
+  margin: auto;
+  padding-inline: 10vw;
 }
 
 @keyframes spin {
@@ -153,16 +175,83 @@ p {
 
 .App {
   min-height: 100vh;
-  background: var(--clr-primary-400);
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
-  align-items: center;
-  justify-content: center;
 }
-.App .main-image {
-  max-width: 20rem;
+
+.NavBar {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: auto;
+}
+.NavBar .skip-links {
+  position: absolute;
+  text-decoration: none;
+  color: var(--clr-primary-400);
+  padding: 1rem;
+  border: 2px solid var(--clr-primary-400);
+  left: 0;
+  right: 0;
+  width: fit-content;
+  margin: 0 auto;
+  transform: translateY(-150%);
+  transition: transform 200ms ease-in;
+}
+.NavBar .skip-links:focus {
+  transform: translateY(0);
+}
+.NavBar nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+.NavBar nav .nav-logo {
+  width: 11rem;
+}
+.NavBar nav .nav-links {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+}
+.NavBar nav .nav-links .nav-link a:not(.solid) {
+  font-family: var(--font-main);
+  text-decoration: none;
+  color: var(--clr-primary-400);
+  padding: 0 0.2rem;
+  font-size: var(--fs-200);
+}
+.NavBar nav .nav-links .nav-link a:not(.solid):hover, .NavBar nav .nav-links .nav-link a:not(.solid):focus {
+  border-bottom: 1px solid var(--clr-primary-400);
+}
+
+.Hero {
+  color: var(--clr-primary-400);
+}
+.Hero .hero-content {
+  display: flex;
+  align-items: center;
+  gap: min(6rem, 10vw);
+  padding-block: 10vh;
+}
+.Hero .hero-content article {
+  max-width: 24rem;
+}
+.Hero .hero-content .hero-title {
+  font-size: var(--fs-400);
+  font-weight: 700;
+}
+.Hero .hero-content .hero-description {
+  font-weight: 500;
+}
+.Hero .hero-content .hero-date {
+  font-family: var(--font-accent);
+}
+.Hero .hero-content p {
+  margin-bottom: 1rem;
+}
+
+.About {
+  background: var(--clr-primary-300);
+  color: var(--clr-light-100);
 }
 
 /*# sourceMappingURL=style.css.map */

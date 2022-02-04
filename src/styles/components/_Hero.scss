@@ -1,0 +1,31 @@
+& {
+	color: var(--clr-primary-400);
+}
+
+.hero-content {
+	display: flex;
+	align-items: center;
+	gap: min(6rem, 10vw);
+	padding-block: 10vh;
+
+	article {
+		max-width: 24rem;
+	}
+
+	.hero-title {
+		font-size: var(--fs-400);
+		font-weight: 700;
+	}
+
+	.hero-description {
+		font-weight: 500;
+	}
+
+	.hero-date {
+		font-family: var(--font-accent);
+	}
+
+	p {
+		margin-bottom: 1rem;
+	}
+}

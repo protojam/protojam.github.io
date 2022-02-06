@@ -1,3 +1,6 @@
+@use "../base/mixins" as *;
+@use "../base/variables" as *;
+
 & {
 	color: var(--clr-primary-400);
 }
@@ -5,27 +8,32 @@
 .hero-content {
 	display: flex;
 	align-items: center;
-	gap: min(6rem, 10vw);
+	flex-direction: column;
+	gap: 2rem;
 	padding-block: 10vh;
+
+	@include mq($brk-medium) {
+		gap: min(6rem, 10vw);
+		flex-direction: row;
+	}
+
+	.hero-image {
+		min-width: 0;
+	}
 
 	article {
 		max-width: 24rem;
-	}
 
-	.hero-title {
-		font-size: var(--fs-400);
-		font-weight: 700;
-	}
+		p {
+			margin-bottom: 1rem;
 
-	.hero-description {
-		font-weight: 500;
-	}
+			&.hero-description {
+				font-weight: 500;
+			}
 
-	.hero-date {
-		font-family: var(--font-accent);
-	}
-
-	p {
-		margin-bottom: 1rem;
+			&.hero-date {
+				font-family: var(--font-accent);
+			}
+		}
 	}
 }

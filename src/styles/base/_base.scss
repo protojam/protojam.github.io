@@ -1,9 +1,12 @@
 // Base styles for commonly-used elements
 
-h1 {
+h1,
+h2,
+h3,
+h4 {
 	font-family: var(--font-main);
-	font-size: var(--fs-300);
-	font-weight: 600;
+	font-size: var(--fs-400);
+	font-weight: 700;
 }
 
 p {
@@ -37,6 +40,7 @@ a.solid {
 }
 
 .max-width {
+	width: 100%;
 	max-width: var(--max-width);
 	margin: auto;
 	padding-inline: 10vw;

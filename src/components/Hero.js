@@ -1,12 +1,11 @@
-import hero from "../assets/hero.png";
+import hero from "../assets/hero.svg";
 import divider from "../assets/dividers/divider_hero.svg";
 
 const Hero = () => {
 	return (
 		<section className="Hero" id="main">
 			<div className="hero-content max-width">
-				{/* TODO: change hero image description */}
-				<img src={hero} alt="Hero Image Description" />
+				<img className="hero-image" src={hero} alt="Aliens helping each other decorate a space" />
 
 				<article>
 					<h1 className="hero-title">ProtoJam 2022</h1>

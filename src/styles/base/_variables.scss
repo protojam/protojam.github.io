@@ -1,3 +1,8 @@
+// Breakpoints
+$brk-small: 35rem;
+$brk-medium: 50rem;
+$brk-large: 65rem;
+
 :root {
 	// Colors
 	--clr-light-100: #ffffff;
@@ -19,11 +24,6 @@
 	--fs-200: 1rem;
 	--fs-300: 1.5rem;
 	--fs-400: 2.25rem;
-
-	// Breakpoints
-	--brk-small: 35rem;
-	--brk-medium: 50rem;
-	--brk-large: 65rem;
 
 	--max-width: 100rem;
 }

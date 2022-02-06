@@ -14,9 +14,6 @@
   --fs-200: 1rem;
   --fs-300: 1.5rem;
   --fs-400: 2.25rem;
-  --brk-small: 35rem;
-  --brk-medium: 50rem;
-  --brk-large: 65rem;
   --max-width: 100rem;
 }
 
@@ -86,10 +83,13 @@ select {
     scroll-behavior: auto !important;
   }
 }
-h1 {
+h1,
+h2,
+h3,
+h4 {
   font-family: var(--font-main);
-  font-size: var(--fs-300);
-  font-weight: 600;
+  font-size: var(--fs-400);
+  font-weight: 700;
 }
 
 p {
@@ -121,6 +121,7 @@ a.solid:hover, a.solid:focus {
 }
 
 .max-width {
+  width: 100%;
   max-width: var(--max-width);
   margin: auto;
   padding-inline: 10vw;
@@ -177,6 +178,22 @@ a.solid:hover, a.solid:focus {
   min-height: 100vh;
 }
 
+.NavBar :root {
+  --clr-light-100: #ffffff;
+  --clr-primary-100: #c996cc;
+  --clr-primary-200: #916bbf;
+  --clr-primary-300: #3d2c8d;
+  --clr-primary-400: #1c0c5b;
+  --clr-text-100: #383838;
+  --clr-text-200: #000000;
+  --font-main: "Red Hat Display", sans-serif;
+  --font-accent: "Anonymous Pro", monospace;
+  --fs-100: 0.875rem;
+  --fs-200: 1rem;
+  --fs-300: 1.5rem;
+  --fs-400: 2.25rem;
+  --max-width: 100rem;
+}
 .NavBar {
   width: 100%;
   max-width: var(--max-width);
@@ -198,6 +215,27 @@ a.solid:hover, a.solid:focus {
 .NavBar .skip-links:focus {
   transform: translateY(0);
 }
+.NavBar .hamburger-button {
+  cursor: pointer;
+  z-index: 2;
+  background: none;
+  border: none;
+}
+.NavBar .hamburger-button .line {
+  width: 2rem;
+  height: 3px;
+  margin: 5px;
+  background: var(--clr-primary-400);
+  transition: background 500ms ease;
+}
+.NavBar .hamburger-button.open .line {
+  background: var(--clr-light-100);
+}
+@media only screen and (min-width: 50rem) {
+  .NavBar .hamburger-button {
+    display: none;
+  }
+}
 .NavBar nav {
   display: flex;
   justify-content: space-between;
@@ -211,47 +249,208 @@ a.solid:hover, a.solid:focus {
   display: flex;
   list-style: none;
   gap: 3rem;
+  clip-path: circle(0% at 90% -10%);
+  -webkit-clip-path: circle(0% at 90% -10%);
+  position: fixed;
+  background: var(--clr-primary-300);
+  inset: 0;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40vh 0;
+  transition: clip-path 1s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+.NavBar nav .nav-links .nav-link {
+  opacity: 0;
+}
+.NavBar nav .nav-links .nav-link:nth-child(1) {
+  transition: opacity 500ms ease 150ms;
+}
+.NavBar nav .nav-links .nav-link:nth-child(2) {
+  transition: opacity 500ms ease 300ms;
+}
+.NavBar nav .nav-links .nav-link:nth-child(3) {
+  transition: opacity 500ms ease 450ms;
+}
+.NavBar nav .nav-links .nav-link:nth-child(4) {
+  transition: opacity 500ms ease 600ms;
 }
 .NavBar nav .nav-links .nav-link a:not(.solid) {
   font-family: var(--font-main);
   text-decoration: none;
-  color: var(--clr-primary-400);
+  color: var(--clr-light-100);
   padding: 0 0.2rem;
   font-size: var(--fs-200);
 }
 .NavBar nav .nav-links .nav-link a:not(.solid):hover, .NavBar nav .nav-links .nav-link a:not(.solid):focus {
   border-bottom: 1px solid var(--clr-primary-400);
 }
+.NavBar nav .nav-links.open {
+  clip-path: circle(160% at 90% -10%);
+  -webkit-clip-path: circle(160% at 90% -10%);
+  pointer-events: all;
+}
+.NavBar nav .nav-links.open li {
+  opacity: 1;
+}
+@media only screen and (min-width: 50rem) {
+  .NavBar nav .nav-links {
+    clip-path: initial;
+    -webkit-clip-path: initial;
+    position: initial;
+    background: initial;
+    inset: initial;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: initial;
+    transition: clip-path 1s ease;
+    pointer-events: initial;
+    z-index: initial;
+  }
+  .NavBar nav .nav-links .nav-link {
+    opacity: 1;
+  }
+  .NavBar nav .nav-links .nav-link a:not(.solid) {
+    color: var(--clr-primary-400);
+  }
+}
 
+.Hero :root {
+  --clr-light-100: #ffffff;
+  --clr-primary-100: #c996cc;
+  --clr-primary-200: #916bbf;
+  --clr-primary-300: #3d2c8d;
+  --clr-primary-400: #1c0c5b;
+  --clr-text-100: #383838;
+  --clr-text-200: #000000;
+  --font-main: "Red Hat Display", sans-serif;
+  --font-accent: "Anonymous Pro", monospace;
+  --fs-100: 0.875rem;
+  --fs-200: 1rem;
+  --fs-300: 1.5rem;
+  --fs-400: 2.25rem;
+  --max-width: 100rem;
+}
 .Hero {
   color: var(--clr-primary-400);
 }
 .Hero .hero-content {
   display: flex;
   align-items: center;
-  gap: min(6rem, 10vw);
+  flex-direction: column;
+  gap: 2rem;
   padding-block: 10vh;
+}
+@media only screen and (min-width: 50rem) {
+  .Hero .hero-content {
+    gap: min(6rem, 10vw);
+    flex-direction: row;
+  }
+}
+.Hero .hero-content .hero-image {
+  min-width: 0;
 }
 .Hero .hero-content article {
   max-width: 24rem;
 }
-.Hero .hero-content .hero-title {
-  font-size: var(--fs-400);
-  font-weight: 700;
-}
-.Hero .hero-content .hero-description {
-  font-weight: 500;
-}
-.Hero .hero-content .hero-date {
-  font-family: var(--font-accent);
-}
-.Hero .hero-content p {
+.Hero .hero-content article p {
   margin-bottom: 1rem;
 }
+.Hero .hero-content article p.hero-description {
+  font-weight: 500;
+}
+.Hero .hero-content article p.hero-date {
+  font-family: var(--font-accent);
+}
 
+.About :root {
+  --clr-light-100: #ffffff;
+  --clr-primary-100: #c996cc;
+  --clr-primary-200: #916bbf;
+  --clr-primary-300: #3d2c8d;
+  --clr-primary-400: #1c0c5b;
+  --clr-text-100: #383838;
+  --clr-text-200: #000000;
+  --font-main: "Red Hat Display", sans-serif;
+  --font-accent: "Anonymous Pro", monospace;
+  --fs-100: 0.875rem;
+  --fs-200: 1rem;
+  --fs-300: 1.5rem;
+  --fs-400: 2.25rem;
+  --max-width: 100rem;
+}
 .About {
   background: var(--clr-primary-300);
   color: var(--clr-light-100);
+}
+.About .about-description {
+  display: flex;
+  gap: 2rem;
+  padding-block: 5rem;
+  align-items: center;
+}
+.About .about-description .about-text {
+  font-weight: 300;
+  margin-top: 1rem;
+}
+.About .sticky-notes {
+  grid-template-columns: repeat(8, 1fr);
+  row-gap: 0.5rem;
+  display: none;
+  width: 100%;
+}
+@media only screen and (min-width: 50rem) {
+  .About .sticky-notes {
+    display: grid;
+  }
+}
+.About .sticky-notes .sticky-note:nth-child(1) {
+  grid-column: 4/9;
+}
+.About .sticky-notes .sticky-note:nth-child(2) {
+  grid-column: 1/7;
+}
+.About .sticky-notes .sticky-note:nth-child(3) {
+  grid-column: 3/8;
+}
+.About .about-steps {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0 2rem 5rem;
+}
+.About .about-steps h2 {
+  text-align: center;
+}
+.About .about-steps .step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+  flex-direction: column;
+}
+@media only screen and (min-width: 35rem) {
+  .About .about-steps .step {
+    flex-direction: row;
+  }
+  .About .about-steps .step:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+}
+.About .about-steps .step img {
+  flex: 1;
+}
+.About .about-steps .step article {
+  flex: 3;
+}
+.About .about-steps .step article .step-name {
+  font-size: var(--fs-300);
+}
+.About .about-steps .step article .step-description {
+  font-family: var(--font-accent);
 }
 
 /*# sourceMappingURL=style.css.map */

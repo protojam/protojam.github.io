@@ -2,11 +2,11 @@
 	"short_name": "ProtoJam 2022",
 	"name": "A virtual UX/UI designathon for good",
 	"icons": [
-		{ "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
-		{ "src": "/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+		{ "src": "/logo192.png", "sizes": "192x192", "type": "image/png" },
+		{ "src": "/logo512.png", "sizes": "512x512", "type": "image/png" }
 	],
 	"start_url": ".",
 	"display": "standalone",
-	"theme_color": "#ffffff",
+	"theme_color": "#1C0C5B",
 	"background_color": "#ffffff"
 }

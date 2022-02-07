@@ -4,7 +4,11 @@
 & {
 	width: 100%;
 	max-width: var(--max-width);
-	margin: auto;
+	margin: 1rem auto;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background: var(--clr-light-100);
 }
 
 .skip-links {
@@ -53,7 +57,7 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 2rem 0;
+	padding: 1.5rem 0;
 
 	.nav-logo {
 		width: 11rem;

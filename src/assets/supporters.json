@@ -1,0 +1,22 @@
+{
+	"platinum": [],
+
+	"gold": [],
+
+	"silver": [],
+
+	"bronze": [],
+
+	"partner": [
+		{
+			"sponsorName": "Voiceflow",
+			"sponsorLink": "https://www.voiceflow.com/",
+			"sponsorImage": "https://global-uploads.webflow.com/5bddf05642686caf6d17eb58/5fd6310ed7b9bff78616bd45_logo.svg"
+		},
+		{
+			"sponsorName": "Startup Edmonton",
+			"sponsorLink": "https://www.dotdashmeredith.com/",
+			"sponsorImage": "https://www.itworldcanada.com/ai/wp-content/uploads/2017/11/stacked-outline-fullcolor-2.png"
+		}
+	]
+}

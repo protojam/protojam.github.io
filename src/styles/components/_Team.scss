@@ -1,0 +1,65 @@
+& {
+	background: var(--clr-primary-300);
+	color: var(--clr-light-100);
+	text-align: center;
+}
+
+article {
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+}
+
+ul {
+	list-style: none;
+}
+
+.team-rank {
+	display: flex;
+	gap: 2rem;
+	flex-wrap: wrap;
+	margin-block: 2rem;
+	justify-content: center;
+}
+
+.team-member {
+	.member-image {
+		width: 10rem;
+		height: 10rem;
+		object-fit: cover;
+		border-radius: 50%;
+		margin: auto;
+		margin-bottom: 1rem;
+	}
+
+	.member-name {
+		font-weight: 600;
+		line-height: 1;
+		font-size: var(--fs-250);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.pronoun-separator {
+		margin-inline: 0.5rem;
+	}
+
+	.member-pronouns {
+		font-weight: 300;
+		font-size: var(--fs-100);
+		vertical-align: middle;
+	}
+
+	.member-title {
+		font-family: var(--font-accent);
+		font-size: var(--fs-100);
+	}
+
+	.contact-links {
+		margin-top: 0.5rem;
+		display: flex;
+		// gap: 0.25rem;
+		align-items: center;
+		justify-content: center;
+	}
+}

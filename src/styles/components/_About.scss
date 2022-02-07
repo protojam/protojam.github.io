@@ -1,0 +1,85 @@
+@use "../base/mixins" as *;
+@use "../base/variables" as *;
+
+& {
+	background: var(--clr-primary-300);
+	color: var(--clr-light-100);
+}
+
+.about-description {
+	display: flex;
+	gap: 2rem;
+	padding-block: 5rem;
+	align-items: center;
+
+	.about-text {
+		font-weight: 300;
+		margin-top: 1rem;
+	}
+}
+
+.sticky-notes {
+	grid-template-columns: repeat(8, 1fr);
+	row-gap: 0.5rem;
+	display: none;
+	width: 100%;
+
+	@include mq($brk-medium) {
+		display: grid;
+	}
+
+	.sticky-note:nth-child(1) {
+		grid-column: 4/9;
+	}
+
+	.sticky-note:nth-child(2) {
+		grid-column: 1/7;
+	}
+
+	.sticky-note:nth-child(3) {
+		grid-column: 3/8;
+	}
+}
+
+.about-steps {
+	max-width: 40rem;
+	margin: 0 auto;
+	padding: 0 2rem 5rem;
+
+	h2 {
+		text-align: center;
+	}
+
+	.step {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 2rem;
+		margin-bottom: 1rem;
+		flex-direction: column;
+
+		@include mq($brk-small) {
+			flex-direction: row;
+
+			&:nth-child(even) {
+				flex-direction: row-reverse;
+			}
+		}
+
+		img {
+			flex: 1;
+		}
+
+		article {
+			flex: 3;
+
+			.step-name {
+				font-size: var(--fs-300);
+			}
+
+			.step-description {
+				font-family: var(--font-accent);
+			}
+		}
+	}
+}

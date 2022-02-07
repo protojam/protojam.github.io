@@ -1,21 +1,65 @@
 // Base styles for commonly-used elements
 
-h1 {
-	font-family: var(--font-heading);
-	font-size: var(--fs-300);
-	font-weight: 600;
-	text-transform: uppercase;
-	color: var(--clr-light-100);
+h1,
+h2,
+h3,
+h4 {
+	font-family: var(--font-main);
+	font-size: var(--fs-400);
+	font-weight: 700;
 }
 
 p {
-	font-family: var(--font-paragraph);
-	font-weight: 300;
-	font-size: var(--fs-100);
-	color: var(--clr-light-100);
+	font-family: var(--font-main);
+	font-size: var(--fs-200);
 }
 
 .none {
 	display: none !important;
 	height: 0 !important;
+}
+
+a.solid {
+	color: var(--clr-light-100);
+	background: var(--clr-primary-400);
+	padding: 0.5rem 1.75rem;
+	border-radius: 0.625rem;
+	font-weight: 600;
+	font-family: var(--font-main);
+	text-decoration: none;
+	font-size: var(--fs-200);
+
+	&:hover,
+	&:focus {
+		background: var(--clr-primary-300);
+	}
+}
+
+.divider {
+	width: 100vw;
+}
+
+.max-width {
+	width: 100%;
+	max-width: var(--max-width);
+	margin: auto;
+	padding-inline: 10vw;
+}
+
+.section-title,
+.section-description {
+	text-align: center;
+}
+
+.section-description {
+	font-family: var(--font-accent);
+}
+
+.icon {
+	padding: 0.5rem;
+}
+.icon:hover,
+.icon:focus {
+	background: rgb(white, 0.1);
+	border-radius: 50%;
 }

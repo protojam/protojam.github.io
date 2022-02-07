@@ -92,7 +92,7 @@ const About = () => {
 				</ul>
 			</section>
 
-			<img className="divider" src={divider} aria-hidden="true" />
+			<img className="divider" src={divider} aria-hidden="true" alt="" />
 		</section>
 	);
 };

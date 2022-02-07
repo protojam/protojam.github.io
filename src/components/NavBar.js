@@ -5,19 +5,20 @@ const NavBar = () => {
 	const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
 	const navLinks = [
-		{ navLink: "#about", name: "About Us" },
-		{ navLink: "#partners", name: "Partners" },
-		{ navLink: "#contact", name: "Contact" },
+		{ navLink: "#about", name: "About" },
+		{ navLink: "#supporters", name: "Supporters" },
+		{ navLink: "#nonprofits", name: "Non-Profits" },
+		{ navLink: "#team", name: "Team" },
 		{ navLink: "#register", name: "Register", solid: true },
 	];
 
 	return (
-		<header className="NavBar max-width">
+		<header className="NavBar">
 			<a href="#main" className="skip-links">
 				Skip to content.
 			</a>
 
-			<nav>
+			<nav className="max-width">
 				{/* Navigation Logo */}
 				<a href="/">
 					<img className="nav-logo" src={logo} alt="ProtoJam Logo" />

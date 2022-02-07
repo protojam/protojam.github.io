@@ -12,6 +12,7 @@
   --font-accent: "Anonymous Pro", monospace;
   --fs-100: 0.875rem;
   --fs-200: 1rem;
+  --fs-250: 1.25rem;
   --fs-300: 1.5rem;
   --fs-400: 2.25rem;
   --max-width: 100rem;
@@ -127,6 +128,25 @@ a.solid:hover, a.solid:focus {
   padding-inline: 10vw;
 }
 
+.section-title,
+.section-description {
+  text-align: center;
+}
+
+.section-description {
+  font-family: var(--font-accent);
+}
+
+.icon {
+  padding: 0.5rem;
+}
+
+.icon:hover,
+.icon:focus {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
 @keyframes spin {
   0% {
     transform: translate(-50%, -50%) scale(0.9);
@@ -190,18 +210,18 @@ a.solid:hover, a.solid:focus {
   --font-accent: "Anonymous Pro", monospace;
   --fs-100: 0.875rem;
   --fs-200: 1rem;
+  --fs-250: 1.25rem;
   --fs-300: 1.5rem;
   --fs-400: 2.25rem;
   --max-width: 100rem;
 }
 .NavBar {
   width: 100%;
-  max-width: var(--max-width);
-  margin: 1rem auto;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   background: var(--clr-light-100);
+  z-index: 2;
 }
 .NavBar .skip-links {
   position: absolute;
@@ -244,15 +264,19 @@ a.solid:hover, a.solid:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 0;
+  padding-block: 1rem;
 }
 .NavBar nav .nav-logo {
   width: 11rem;
 }
+@media only screen and (min-width: 50rem) {
+  .NavBar nav {
+    padding-block: 1.5rem;
+  }
+}
 .NavBar nav .nav-links {
   display: flex;
   list-style: none;
-  gap: 3rem;
   clip-path: circle(0% at 90% -10%);
   -webkit-clip-path: circle(0% at 90% -10%);
   position: fixed;
@@ -267,6 +291,7 @@ a.solid:hover, a.solid:focus {
   z-index: 1;
 }
 .NavBar nav .nav-links .nav-link {
+  margin-left: 2rem;
   opacity: 0;
 }
 .NavBar nav .nav-links .nav-link:nth-child(1) {
@@ -321,6 +346,11 @@ a.solid:hover, a.solid:focus {
     color: var(--clr-primary-400);
   }
 }
+@media only screen and (min-width: 65rem) {
+  .NavBar nav .nav-links .nav-link {
+    margin-left: 3rem;
+  }
+}
 
 .Hero :root {
   --clr-light-100: #ffffff;
@@ -334,6 +364,7 @@ a.solid:hover, a.solid:focus {
   --font-accent: "Anonymous Pro", monospace;
   --fs-100: 0.875rem;
   --fs-200: 1rem;
+  --fs-250: 1.25rem;
   --fs-300: 1.5rem;
   --fs-400: 2.25rem;
   --max-width: 100rem;
@@ -382,6 +413,7 @@ a.solid:hover, a.solid:focus {
   --font-accent: "Anonymous Pro", monospace;
   --fs-100: 0.875rem;
   --fs-200: 1rem;
+  --fs-250: 1.25rem;
   --fs-300: 1.5rem;
   --fs-400: 2.25rem;
   --max-width: 100rem;
@@ -455,6 +487,283 @@ a.solid:hover, a.solid:focus {
 }
 .About .about-steps .step article .step-description {
   font-family: var(--font-accent);
+}
+
+.Supporters {
+  background: var(--clr-primary-400);
+  color: var(--clr-light-100);
+}
+.Supporters article {
+  padding-block: 4rem;
+}
+.Supporters .tier-list {
+  list-style: none;
+  margin-block: 2rem;
+}
+.Supporters .tier-list .tier {
+  position: relative;
+  z-index: 0;
+  overflow-x: hidden;
+  margin-bottom: 1rem;
+}
+.Supporters .tier-list .tier .tier-title {
+  text-transform: capitalize;
+  font-size: var(--fs-300);
+  position: relative;
+  margin: auto;
+  background: var(--clr-primary-400);
+  padding: 1rem;
+  width: fit-content;
+}
+.Supporters .tier-list .tier .tier-title::before {
+  content: "";
+  border-bottom: solid 2px var(--clr-light-100);
+  width: 100vw;
+  left: -50vw;
+  top: 50%;
+  position: absolute;
+  z-index: -1;
+}
+.Supporters .supporter-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.Supporters .supporter-list .supporter a {
+  display: block;
+  background: var(--clr-light-100);
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+}
+.Supporters .supporter-list .supporter a img {
+  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.5));
+  margin: auto;
+}
+.Supporters .supporter-list.platinum .supporter {
+  width: calc(100% - 2rem);
+}
+.Supporters .supporter-list.gold .supporter {
+  width: calc(50% - 2rem);
+  min-width: 20rem;
+}
+.Supporters .supporter-list.silver .supporter {
+  width: calc(33.3% - 2rem);
+  min-width: 15rem;
+}
+.Supporters .supporter-list.bronze .supporter, .Supporters .supporter-list.partner .supporter {
+  width: calc(25% - 2rem);
+  min-width: 10rem;
+}
+.Supporters .description {
+  text-align: center;
+  font-family: var(--font-accent);
+}
+.Supporters .description a {
+  color: inherit;
+}
+.Supporters .description a:hover, .Supporters .description a:focus {
+  color: var(--clr-primary-100);
+}
+
+.NonProfits :root {
+  --clr-light-100: #ffffff;
+  --clr-primary-100: #c996cc;
+  --clr-primary-200: #916bbf;
+  --clr-primary-300: #3d2c8d;
+  --clr-primary-400: #1c0c5b;
+  --clr-text-100: #383838;
+  --clr-text-200: #000000;
+  --font-main: "Red Hat Display", sans-serif;
+  --font-accent: "Anonymous Pro", monospace;
+  --fs-100: 0.875rem;
+  --fs-200: 1rem;
+  --fs-250: 1.25rem;
+  --fs-300: 1.5rem;
+  --fs-400: 2.25rem;
+  --max-width: 100rem;
+}
+.NonProfits {
+  background: var(--clr-light-100);
+  color: var(--clr-primary-400);
+}
+.NonProfits article {
+  padding-block: 4rem;
+}
+.NonProfits .section-title,
+.NonProfits .section-description {
+  text-align: center;
+}
+.NonProfits p {
+  font-family: var(--font-accent);
+}
+.NonProfits .nonprofit-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-around;
+  list-style: none;
+}
+.NonProfits .nonprofit-card {
+  width: calc(33.3% - 2rem);
+  min-width: 15rem;
+}
+.NonProfits .nonprofit-card a {
+  width: 15rem;
+  height: 15rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 2rem;
+}
+.NonProfits .nonprofit-card a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.NonProfits .nonprofit-card h4 {
+  text-align: center;
+  font-size: var(--fs-300);
+  line-height: 1;
+}
+.NonProfits .nonprofit-card p {
+  text-align: justify;
+}
+
+.Team {
+  background: var(--clr-primary-300);
+  color: var(--clr-light-100);
+  text-align: center;
+}
+.Team article {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+.Team ul {
+  list-style: none;
+}
+.Team .team-rank {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-block: 2rem;
+  justify-content: center;
+}
+.Team .team-member .member-image {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+.Team .team-member .member-name {
+  font-weight: 600;
+  line-height: 1;
+  font-size: var(--fs-250);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Team .team-member .pronoun-separator {
+  margin-inline: 0.5rem;
+}
+.Team .team-member .member-pronouns {
+  font-weight: 300;
+  font-size: var(--fs-100);
+  vertical-align: middle;
+}
+.Team .team-member .member-title {
+  font-family: var(--font-accent);
+  font-size: var(--fs-100);
+}
+.Team .team-member .contact-links {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Register :root {
+  --clr-light-100: #ffffff;
+  --clr-primary-100: #c996cc;
+  --clr-primary-200: #916bbf;
+  --clr-primary-300: #3d2c8d;
+  --clr-primary-400: #1c0c5b;
+  --clr-text-100: #383838;
+  --clr-text-200: #000000;
+  --font-main: "Red Hat Display", sans-serif;
+  --font-accent: "Anonymous Pro", monospace;
+  --fs-100: 0.875rem;
+  --fs-200: 1rem;
+  --fs-250: 1.25rem;
+  --fs-300: 1.5rem;
+  --fs-400: 2.25rem;
+  --max-width: 100rem;
+}
+.Register {
+  background: var(--clr-primary-400);
+  color: var(--clr-light-100);
+}
+.Register article {
+  padding-block: 3rem;
+}
+.Register .eventbrite {
+  margin-block: 2rem;
+}
+.Register .footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+.Register .footer-container .contact {
+  text-align: center;
+  margin-right: 2rem;
+}
+.Register .footer-container .contact .solid {
+  display: block;
+  margin-top: 0.5rem;
+  background: var(--clr-primary-300);
+  width: max-content;
+}
+.Register .footer-container .contact .solid:focus, .Register .footer-container .contact .solid:hover {
+  background: var(--clr-primary-200);
+}
+.Register .footer-container .contact-info {
+  margin-top: 0.5rem;
+  margin-left: -0.5rem;
+  align-items: center;
+  display: flex;
+}
+@media only screen and (min-width: 50rem) {
+  .Register .footer-container {
+    flex-direction: row;
+  }
+  .Register .footer-container .adas-team {
+    max-width: 30rem;
+  }
+}
+.Register footer {
+  position: relative;
+  padding-inline: 10vw;
+}
+@media only screen and (min-width: 50rem) {
+  .Register footer {
+    padding-bottom: 2rem;
+  }
+  .Register footer::after {
+    content: url("../assets/ada_bot.png");
+    position: absolute;
+    right: 0;
+    top: -50%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

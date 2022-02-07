@@ -45,3 +45,21 @@ a.solid {
 	margin: auto;
 	padding-inline: 10vw;
 }
+
+.section-title,
+.section-description {
+	text-align: center;
+}
+
+.section-description {
+	font-family: var(--font-accent);
+}
+
+.icon {
+	padding: 0.5rem;
+}
+.icon:hover,
+.icon:focus {
+	background: rgb(white, 0.1);
+	border-radius: 50%;
+}

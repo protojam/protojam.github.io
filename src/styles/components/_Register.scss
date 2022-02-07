@@ -1,0 +1,72 @@
+@use "../base/mixins" as *;
+@use "../base/variables" as *;
+
+& {
+	background: var(--clr-primary-400);
+	color: var(--clr-light-100);
+}
+
+article {
+	padding-block: 3rem;
+}
+
+.eventbrite {
+	margin-block: 2rem;
+}
+
+.footer-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	gap: 2rem;
+	padding: 2rem;
+
+	.contact {
+		text-align: center;
+		margin-right: 2rem;
+
+		.solid {
+			display: block;
+			margin-top: 0.5rem;
+			background: var(--clr-primary-300);
+			width: max-content;
+
+			&:focus,
+			&:hover {
+				background: var(--clr-primary-200);
+			}
+		}
+	}
+
+	.contact-info {
+		margin-top: 0.5rem;
+		margin-left: -0.5rem;
+		align-items: center;
+		display: flex;
+	}
+
+	@include mq($brk-medium) {
+		flex-direction: row;
+
+		.adas-team {
+			max-width: 30rem;
+		}
+	}
+}
+
+footer {
+	position: relative;
+	padding-inline: 10vw;
+
+	@include mq($brk-medium) {
+		padding-bottom: 2rem;
+
+		&::after {
+			content: url("../assets/ada_bot.png");
+			position: absolute;
+			right: 0;
+			top: -50%;
+		}
+	}
+}

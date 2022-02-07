@@ -3,11 +3,11 @@
 		{
 			"name": "Helen",
 			"title": "Executive Director",
-			"image": "https://www.oseyo.co.uk/wp-content/uploads/2020/05/empty-profile-picture-png-2.png",
+			"image": "/team/Helen.jpg",
 			"pronouns": "she/her",
-			"linkedin": "",
-			"github": "",
-			"email": ""
+			"linkedin": "https://www.linkedin.com/in/helenaquino/",
+			"github": "https://github.com/aqueeno",
+			"email": "haquino@ualberta.ca"
 		},
 		{
 			"name": "Nadeen",
@@ -33,7 +33,7 @@
 			"name": "Jawad",
 			"title": "Operations Director",
 			"pronouns": "he/him",
-			"image": "https://www.oseyo.co.uk/wp-content/uploads/2020/05/empty-profile-picture-png-2.png",
+			"image": "/team/Jawad.png",
 			"linkedin": "",
 			"github": "",
 			"email": ""

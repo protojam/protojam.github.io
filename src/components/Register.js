@@ -25,7 +25,7 @@ const Register = () => {
 					iframeContainerId: "eventbrite-widget-container-261633281187",
 
 					// Optional
-					iframeContainerHeight: 425, // Widget height in pixels. Defaults to a minimum of 425px if not provided
+					iframeContainerHeight: 1000, // Widget height in pixels. Defaults to a minimum of 425px if not provided
 				});
 
 				clearInterval(eventbriteInterval);

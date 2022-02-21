@@ -1,20 +1,20 @@
 [
 	{
-		"npName": "Coming Soon!",
-		"npLink": "/",
-		"npImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/1200px-Black_colour.jpg",
-		"npDescription": ""
+		"npName": "BGC Bigs",
+		"npLink": "https://bgcbigs.ca/",
+		"npImage": "/nonprofits/BGCBigs.png",
+		"npDescription": "Boys & Girls Clubs Big Brothers Big Sisters (BGCBigs) is committed to the healthy development of all children. They provide a diverse array of mentoring and after school programs to meet the needs of our community’s children and youth so they have the tools and supports they need to be successful in school and in life."
 	},
 	{
-		"npName": "Coming Soon!",
-		"npLink": "/",
-		"npImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/1200px-Black_colour.jpg",
-		"npDescription": ""
+		"npName": "Relay For Life",
+		"npLink": "https://support.cancer.ca/site/TR/?pg=entry&fr_id=28065",
+		"npImage": "/nonprofits/relayforLife.png",
+		"npDescription": "The Canadian Cancer Society Relay For Life is an annual fundraising event that brings together communities across the country to support a future where no one fears cancer."
 	},
 	{
-		"npName": "Coming Soon!",
-		"npLink": "/",
-		"npImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/1200px-Black_colour.jpg",
-		"npDescription": ""
+		"npName": "TCLI Foundation",
+		"npLink": "https://tclifoundation.ca/",
+		"npImage": "/nonprofits/TCLI.png",
+		"npDescription": "TCLI Foundation is a registered non-profit organization in Canada geared towards effecting societal changes through literature, arts and culture. Building a strong community and reinforcing shared spaces to aid one another, towards strength, freedom, independence and satisfaction."
 	}
 ]

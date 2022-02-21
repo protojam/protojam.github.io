@@ -1,6 +1,0 @@
-{
-		"npName": "TCLI Foundation",
-		"npLink": "https://tclifoundation.ca/",
-		"npImage": "https://tclifoundation.ca/wp-content/uploads/2019/07/logo.jpg",
-		"npDescription": "To empower the marginalized in our community, give voice to the voiceless, hope to the despondent and light out obscure areas."
-}

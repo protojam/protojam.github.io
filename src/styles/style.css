@@ -539,7 +539,6 @@ a.solid:hover, a.solid:focus {
   padding: 0.75rem 1.5rem;
 }
 .Supporters .supporter-list .supporter a img {
-  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.5));
   margin: auto;
 }
 .Supporters .supporter-list.platinum .supporter {
@@ -621,19 +620,15 @@ a.solid:hover, a.solid:focus {
   padding: 2rem;
 }
 .NonProfits .nonprofit-card a img {
-  width: 100%;
+  width: auto;
   height: 100%;
-  object-fit: cover;
 }
 .NonProfits .nonprofit-card h4 {
   text-align: center;
   font-size: var(--fs-300);
   line-height: 1;
+  margin-bottom: 1rem;
 }
-.NonProfits .nonprofit-card p {
-  text-align: justify;
-}
-
 .Team {
   background: var(--clr-primary-300);
   color: var(--clr-light-100);

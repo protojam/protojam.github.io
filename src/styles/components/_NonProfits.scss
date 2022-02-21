@@ -42,9 +42,8 @@ p {
 		padding: 2rem;
 
 		img {
-			width: 100%;
+			width: auto;
 			height: 100%;
-			object-fit: cover;
 		}
 	}
 
@@ -52,9 +51,10 @@ p {
 		text-align: center;
 		font-size: var(--fs-300);
 		line-height: 1;
+		margin-bottom: 1rem;
 	}
 
 	p {
-		text-align: justify;
+		// text-align: justify;
 	}
 }

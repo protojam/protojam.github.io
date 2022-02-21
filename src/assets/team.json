@@ -12,7 +12,7 @@
 		{
 			"name": "Nadeen",
 			"title": "Executive Director",
-			"image": "https://www.oseyo.co.uk/wp-content/uploads/2020/05/empty-profile-picture-png-2.png",
+			"image": "/team/Nadeen.jpeg",
 			"pronouns": "she/her",
 			"linkedin": "https://www.linkedin.com/in/nadeenmohamed/",
 			"github": "https://github.com/nadeensami",
@@ -42,16 +42,16 @@
 			"name": "Ryan",
 			"title": "Technical Director",
 			"pronouns": "he/him",
-			"image": "https://www.oseyo.co.uk/wp-content/uploads/2020/05/empty-profile-picture-png-2.png",
-			"linkedin": "",
-			"github": "",
-			"email": ""
+			"image": "/team/Ryan.jpg",
+			"linkedin": "https://www.linkedin.com/in/ryancjacques/",
+			"github": "https://github.com/ryanjacquess",
+			"email": "rjacques@ualberta.ca"
 		},
 		{
 			"name": "Justine",
 			"title": "Outreach Director",
 			"pronouns": "she/her",
-			"image": "https://www.oseyo.co.uk/wp-content/uploads/2020/05/empty-profile-picture-png-2.png",
+			"image": "/team/Justine.png",
 			"linkedin": "",
 			"github": "",
 			"email": ""
@@ -62,7 +62,7 @@
 			"name": "Krishna",
 			"title": "Marketing Intern",
 			"pronouns": "x/x",
-			"image": "https://www.oseyo.co.uk/wp-content/uploads/2020/05/empty-profile-picture-png-2.png",
+			"image": "/team/Krishna.JPG",
 			"linkedin": "",
 			"github": "",
 			"email": ""
@@ -70,8 +70,8 @@
 		{
 			"name": "Aparajita",
 			"title": "Finance Intern",
-			"pronouns": "x/x",
-			"image": "https://www.oseyo.co.uk/wp-content/uploads/2020/05/empty-profile-picture-png-2.png",
+			"pronouns": "she/her",
+			"image": "/team/Aparajita.JPG",
 			"linkedin": "",
 			"github": "",
 			"email": ""

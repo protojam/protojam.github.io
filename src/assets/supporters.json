@@ -1,7 +1,13 @@
 {
 	"platinum": [],
 
-	"gold": [],
+	"gold": [
+		{
+			"sponsorName": "IronSight",
+			"sponsorLink": "https://ironsight.app/",
+			"sponsorImage": "/supporters/ironsight.png"
+		}
+	],
 
 	"silver": [],
 
@@ -22,6 +28,11 @@
 			"sponsorName": "Google",
 			"sponsorLink": "https://about.google/",
 			"sponsorImage": "/supporters/google.png"
+		},
+		{
+			"sponsorName": "IterateUX",
+			"sponsorLink": "https://discord.com/invite/eBCzDMK",
+			"sponsorImage": "/supporters/iterateUX.png"
 		}
 	]
 }

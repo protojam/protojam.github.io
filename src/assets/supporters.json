@@ -9,7 +9,18 @@
 		}
 	],
 
-	"silver": [],
+	"silver": [
+		{
+			"sponsorName": "Dotdash",
+			"sponsorLink": "https://www.dotdashmeredith.com/",
+			"sponsorImage": "/supporters/dotdash.png"
+		},
+		{
+			"sponsorName": "Leading Learners",
+			"sponsorLink": "https://www.leading-learners.com/",
+			"sponsorImage": "/supporters/leadingLearners.png"
+		}
+	],
 
 	"bronze": [],
 

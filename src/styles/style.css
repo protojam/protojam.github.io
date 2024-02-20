@@ -710,7 +710,29 @@ a.solid:hover, a.solid:focus {
 .Register .eventbrite {
   margin-block: 2rem;
 }
-.Register .footer-container {
+
+.Footer :root {
+  --clr-light-100: #ffffff;
+  --clr-primary-100: #c996cc;
+  --clr-primary-200: #916bbf;
+  --clr-primary-300: #3d2c8d;
+  --clr-primary-400: #1c0c5b;
+  --clr-text-100: #383838;
+  --clr-text-200: #000000;
+  --font-main: "Red Hat Display", sans-serif;
+  --font-accent: "Anonymous Pro", monospace;
+  --fs-100: 0.875rem;
+  --fs-200: 1rem;
+  --fs-250: 1.25rem;
+  --fs-300: 1.5rem;
+  --fs-400: 2.25rem;
+  --max-width: 100rem;
+}
+.Footer {
+  background: var(--clr-primary-400);
+  color: var(--clr-light-100);
+}
+.Footer .footer-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -718,42 +740,42 @@ a.solid:hover, a.solid:focus {
   gap: 2rem;
   padding: 2rem;
 }
-.Register .footer-container .contact {
+.Footer .footer-container .contact {
   text-align: center;
   margin-right: 2rem;
 }
-.Register .footer-container .contact .solid {
+.Footer .footer-container .contact .solid {
   display: block;
   margin-top: 0.5rem;
   background: var(--clr-primary-300);
   width: max-content;
 }
-.Register .footer-container .contact .solid:focus, .Register .footer-container .contact .solid:hover {
+.Footer .footer-container .contact .solid:focus, .Footer .footer-container .contact .solid:hover {
   background: var(--clr-primary-200);
 }
-.Register .footer-container .contact-info {
+.Footer .footer-container .contact-info {
   margin-top: 0.5rem;
   margin-left: -0.5rem;
   align-items: center;
   display: flex;
 }
 @media only screen and (min-width: 50rem) {
-  .Register .footer-container {
+  .Footer .footer-container {
     flex-direction: row;
   }
-  .Register .footer-container .adas-team {
+  .Footer .footer-container .adas-team {
     max-width: 30rem;
   }
 }
-.Register footer {
+.Footer footer {
   position: relative;
   padding-inline: 10vw;
 }
 @media only screen and (min-width: 50rem) {
-  .Register footer {
+  .Footer footer {
     padding-bottom: 2rem;
   }
-  .Register footer::after {
+  .Footer footer::after {
     content: url("../assets/ada_bot.png");
     position: absolute;
     right: 0;

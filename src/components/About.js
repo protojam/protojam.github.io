@@ -18,14 +18,17 @@ const About = () => {
 				<article>
 					<h2>What is ProtoJam?</h2>
 					<p className="about-text">
-						ProtoJam 2022 is an online, weekend long, no-code design competition - a designathon -
-						where students tackle design challenges focused on UX/UI design (user experience and
-						user interface).
+						ProtoJam 2024 is a three day long, no-code design competition - a designathon - where
+						students tackle design challenges focused on UX/UI design (user experience and user
+						interface).
 					</p>
 					<p className="about-text">
 						Technology for good - our theme for this year. We want to encourage young minds to use
 						their skills for social change, so our design challenges are centered around causes for
 						local non-profit organizations.
+					</p>
+					<p className="about-text">
+						Unleash your creativity and make a positive difference, Join us in person or virtually!
 					</p>
 				</article>
 

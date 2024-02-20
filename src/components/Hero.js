@@ -8,11 +8,11 @@ const Hero = () => {
 				<img className="hero-image" src={hero} alt="Aliens helping each other decorate a space" />
 
 				<article>
-					<h1 className="hero-title">ProtoJam 2022</h1>
+					<h1 className="hero-title">ProtoJam 2024</h1>
 					<p className="hero-description">
 						A virtual UX/UI Designathon promoting technology for good.
 					</p>
-					<p className="hero-date">February 25-27, 2022</p>
+					<p className="hero-date">March 22-24, 2024</p>
 					<a href="#register" className="solid">
 						Register Now!
 					</a>

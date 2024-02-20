@@ -12,7 +12,7 @@ const NonProfits = () => {
 
 				<ul className="nonprofit-list">
 					{nonprofits.map(({ npName, npDescription, npLink, npImage }, i) => (
-						<li className="nonprofit-card">
+						<li className="nonprofit-card" key={npName}>
 							<a href={npLink}>
 								<img src={npImage} alt={`${npName} logo`} />
 							</a>

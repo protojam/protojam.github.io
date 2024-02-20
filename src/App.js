@@ -5,6 +5,7 @@ import NonProfits from "./components/NonProfits";
 import Register from "./components/Register";
 import Supporters from "./components/Supporters";
 import Team from "./components/Team";
+import Footer from "./components/Footer";
 
 const App = () => {
 	return (
@@ -16,6 +17,7 @@ const App = () => {
 			<NonProfits />
 			<Team />
 			<Register />
+			<Footer />
 		</div>
 	);
 };

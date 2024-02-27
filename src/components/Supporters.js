@@ -10,7 +10,9 @@ const Supporters = () => {
 					Special thanks to our wonderful supporters of ProtoJam!
 				</p>
 
-				<ul className="tier-list">
+				<h2 className="section-title">COMING SOON!</h2>
+
+				{/* <ul className="tier-list">
 					{Object.keys(supporters).map((supporter_tier, i) => {
 						const tier_array = supporters[supporter_tier];
 
@@ -31,7 +33,7 @@ const Supporters = () => {
 							);
 						else return "";
 					})}
-				</ul>
+				</ul> */}
 
 				<p className="description">
 					Would you like to support ProtoJam? <br />

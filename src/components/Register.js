@@ -39,7 +39,7 @@ const Register = () => {
 				<p className="section-description">
 					Join in on the fun for ProtoJam 2024!
 					<br />
-					Registration open until February 25 @ 4PM MDT.
+					Registration open until March 17 @ 11:59 PM MDT.
 				</p>
 				<div className="eventbrite" id="eventbrite-widget-container-823318797687"></div>
 			</article>

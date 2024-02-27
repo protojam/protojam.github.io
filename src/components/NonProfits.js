@@ -10,7 +10,9 @@ const NonProfits = () => {
 					Learn more about the non-profits featured at ProtoJam!
 				</p>
 
-				<ul className="nonprofit-list">
+				<h2 className="section-title">COMING SOON!</h2>
+
+				{/* <ul className="nonprofit-list">
 					{nonprofits.map(({ npName, npDescription, npLink, npImage }, i) => (
 						<li className="nonprofit-card" key={npName}>
 							<a href={npLink}>
@@ -20,7 +22,7 @@ const NonProfits = () => {
 							<p className="description">{npDescription}</p>
 						</li>
 					))}
-				</ul>
+				</ul> */}
 			</article>
 
 			<img className="divider" src={divider} aria-hidden="true" alt="" />

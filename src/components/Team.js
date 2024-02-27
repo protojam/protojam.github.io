@@ -12,7 +12,10 @@ const Team = () => {
 			<article className="max-width">
 				<h2 className="section-title">Meet the Team</h2>
 				<p className="section-description">These are the people who made the event possible!</p>
-				<ul className="team-container">
+
+				<h2 className="section-title">COMING SOON!</h2>
+
+				{/* <ul className="team-container">
 					{Object.keys(team).map((rank, i) => (
 						<li className={rank} key={i}>
 							<ul className="team-rank">
@@ -52,7 +55,7 @@ const Team = () => {
 							</ul>
 						</li>
 					))}
-				</ul>
+				</ul> */}
 			</article>
 			<img className="divider" src={divider} aria-hidden="true" alt="" />
 		</section>

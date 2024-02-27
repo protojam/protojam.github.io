@@ -32,7 +32,7 @@ const About = () => {
 					</p>
 				</article>
 
-				<div className="sticky-notes">
+				{/* <div className="sticky-notes">
 					<img
 						className="sticky-note n1"
 						src={stickyNote1}
@@ -48,7 +48,7 @@ const About = () => {
 						src={stickyNote3}
 						alt="Sticky note saying Every skill level is welcome - we'll provide workshops and resources to set you up for success!"
 					/>
-				</div>
+				</div> */}
 			</section>
 
 			<section className="about-steps">

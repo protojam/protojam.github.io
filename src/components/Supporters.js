@@ -37,7 +37,8 @@ const Supporters = () => {
 
 				<p className="description">
 					Would you like to support ProtoJam? <br />
-					Feel free to <a href="mailto:protojam@adasteam.ca">contact</a> us, we'd love to have you!
+					{/* Feel free to <a href="mailto:protojam@adasteam.ca">contact</a> us, we'd love to have you! */}
+					Feel free to <a href="mailto:adasteam@ualberta.ca">contact</a> us, we'd love to have you!
 				</p>
 			</article>
 

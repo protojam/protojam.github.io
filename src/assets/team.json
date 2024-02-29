@@ -1,80 +1,46 @@
-{
-	"executives": [
+[
+	[
 		{
-			"name": "Helen",
+			"name": "Mark Maligalig",
 			"title": "Executive Director",
-			"image": "/team/Helen.jpg",
-			"pronouns": "she/her",
-			"linkedin": "https://www.linkedin.com/in/helenaquino/",
-			"github": "https://github.com/aqueeno",
-			"email": "haquino@ualberta.ca"
+			"image": "/team/Mark.jpg"
 		},
 		{
-			"name": "Nadeen",
+			"name": "Saba Gul",
 			"title": "Executive Director",
-			"image": "/team/Nadeen.jpeg",
-			"pronouns": "she/her",
-			"linkedin": "https://www.linkedin.com/in/nadeenmohamed/",
-			"github": "https://github.com/nadeensami",
-			"email": "nadeen@ualberta.ca"
+			"image": "/team/Saba.jpg"
 		}
 	],
-	"directors": [
+	[
 		{
-			"name": "Mariam",
+			"name": "Grace Mullane",
+			"title": "Design Director"
+		},
+		{
+			"name": "Mackenzie Luong",
 			"title": "Communications Director",
-			"image": "/team/Mariam.jpg",
-			"pronouns": "she/her",
-			"linkedin": "https://www.linkedin.com/in/mariam-ayinde-36414220b/",
-			"github": "",
-			"email": "ayinde@ualberta.ca"
+			"image": "/team/MacKenzie.jpg"
 		},
 		{
-			"name": "Jawad",
+			"name": "Bhavnoor Kaur",
 			"title": "Operations Director",
-			"pronouns": "he/him",
-			"image": "/team/Jawad.png",
-			"linkedin": "",
-			"github": "",
-			"email": ""
-		},
-		{
-			"name": "Ryan",
-			"title": "Technical Director",
-			"pronouns": "he/him",
-			"image": "/team/Ryan.jpg",
-			"linkedin": "https://www.linkedin.com/in/ryancjacques/",
-			"github": "https://github.com/ryanjacquess",
-			"email": "rjacques@ualberta.ca"
-		},
-		{
-			"name": "Justine",
-			"title": "Outreach Director",
-			"pronouns": "she/her",
-			"image": "/team/Justine.png",
-			"linkedin": "https://www.linkedin.com/in/j-vent/",
-			"github": "https://github.com/j-vent",
-			"email": "linnrose@ualberta.ca"
+			"image": "/team/Bhavnoor.jpeg"
 		}
 	],
-	"interns": [
+	[
 		{
-			"name": "Krishna",
-			"title": "Marketing Intern",
-			"pronouns": "she/her",
-			"image": "/team/Krishna.JPG",
-			"linkedin": "",
-			"github": "",
-			"email": ""
+			"name": "Sumaiya Salsabil",
+			"title": "Finance Director"
 		},
 		{
-			"name": "Aparajita",
-			"title": "Finance Intern",
-			"pronouns": "she/her",
-			"image": "/team/Aparajita.JPG",
-			"linkedin": "",
-			"github": "",
-			"email": ""
+			"name": "Khushi Shah",
+			"title": "Outreach Director",
+			"image": "/team/Khushi.jpg"
+		},
+		{
+			"name": "Frances Igwe",
+			"title": "Operations",
+			"image": "/team/Frances.jpg"
 		}
 	]
-}
+]

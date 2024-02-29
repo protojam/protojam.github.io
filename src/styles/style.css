@@ -656,6 +656,14 @@ a.solid:hover, a.solid:focus {
   margin: auto;
   margin-bottom: 1rem;
 }
+.Team .team-member .pink-blob {
+  width: 10rem;
+  height: 10rem;
+  background-color: var(--clr-primary-100);
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
 .Team .team-member .member-name {
   font-weight: 600;
   line-height: 1;

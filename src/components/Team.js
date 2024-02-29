@@ -13,22 +13,24 @@ const Team = () => {
 				<h2 className="section-title">Meet the Team</h2>
 				<p className="section-description">These are the people who made the event possible!</p>
 
-				<h2 className="section-title">COMING SOON!</h2>
-
-				{/* <ul className="team-container">
-					{Object.keys(team).map((rank, i) => (
-						<li className={rank} key={i}>
+				<ul className="team-container">
+					{team.map((row, i) => (
+						<li key={i}>
 							<ul className="team-rank">
-								{team[rank].map(({ name, title, image, pronouns, linkedin, github, email }, i) => (
+								{row.map(({ name, title, image, pronouns, linkedin, github, email }, i) => (
 									<li className="team-member" key={i}>
-										<img className="member-image" src={image} alt={name} />
+										{image ? (
+											<img className="member-image" src={image} alt={name} />
+										) : (
+											<div className="pink-blob" />
+										)}
 										<p className="member-name">
 											{name}
-											<span className="pronoun-separator">&#8226;</span>
-											<span className="member-pronouns">{pronouns}</span>
+											{/* <span className="pronoun-separator">&#8226;</span>
+											<span className="member-pronouns">{pronouns}</span> */}
 										</p>
 										<p className="member-title">{title}</p>
-										<div className="contact-links">
+										{/* <div className="contact-links">
 											{linkedin && (
 												<a className="icon" href={linkedin} rel="noreferrer" target="_blank">
 													<img src={linkedin_icon} alt="linkedin icon" />
@@ -49,13 +51,13 @@ const Team = () => {
 													<img src={email_icon} alt="linkedin icon" />
 												</a>
 											)}
-										</div>
+										</div> */}
 									</li>
 								))}
 							</ul>
 						</li>
 					))}
-				</ul> */}
+				</ul>
 			</article>
 			<img className="divider" src={divider} aria-hidden="true" alt="" />
 		</section>

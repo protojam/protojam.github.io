@@ -718,6 +718,9 @@ a.solid:hover, a.solid:focus {
 .Register .eventbrite {
   margin-block: 2rem;
 }
+.Register a {
+  color: var(--clr-light-100);
+}
 
 .Footer :root {
   --clr-light-100: #ffffff;

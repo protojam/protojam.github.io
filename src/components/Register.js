@@ -41,6 +41,10 @@ const Register = () => {
 					<br />
 					Registration open until March 17 @ 11:59 PM MDT.
 				</p>
+				<p className="section-description">
+					You can register below or on{" "}
+					<a href="https://www.eventbrite.ca/e/protojam-2024-tickets-823318797687">Eventbrite</a>.
+				</p>
 				<div className="eventbrite" id="eventbrite-widget-container-823318797687"></div>
 			</article>
 		</section>

@@ -5,24 +5,20 @@ const NonProfits = () => {
 	return (
 		<section className="NonProfits" id="nonprofits">
 			<article className="max-width">
-				<h2 className="section-title">Non-Profits</h2>
+				<h2 className="section-title">Design Challenge Hosts</h2>
 				<p className="section-description">
-					Learn more about the non-profits featured at ProtoJam!
+					ProtoJam features design challenges hosted by the following organizations!
 				</p>
 
-				<h2 className="section-title">COMING SOON!</h2>
-
-				{/* <ul className="nonprofit-list">
+				<ul className="nonprofit-list">
 					{nonprofits.map(({ npName, npDescription, npLink, npImage }, i) => (
 						<li className="nonprofit-card" key={npName}>
-							<a href={npLink}>
-								<img src={npImage} alt={`${npName} logo`} />
-							</a>
+							<img src={npImage} alt={`${npName} logo`} />
 							<h4 className="title">{npName}</h4>
 							<p className="description">{npDescription}</p>
 						</li>
 					))}
-				</ul> */}
+				</ul>
 			</article>
 
 			<img className="divider" src={divider} aria-hidden="true" alt="" />

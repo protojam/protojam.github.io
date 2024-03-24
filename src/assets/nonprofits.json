@@ -1,20 +1,12 @@
 [
 	{
-		"npName": "BGC Bigs",
-		"npLink": "https://bgcbigs.ca/",
-		"npImage": "/nonprofits/BGCBigs.png",
-		"npDescription": "Boys & Girls Clubs Big Brothers Big Sisters (BGCBigs) is committed to the healthy development of all children. They provide a diverse array of mentoring and after school programs to meet the needs of our community’s children and youth so they have the tools and supports they need to be successful in school and in life."
+		"npName": "NeurAlbertaTech",
+		"npImage": "/nonprofits/nat.png",
+		"npDescription": "NeurAlbertaTech (NAT) is Alberta’s largest neurotechnology innovator network, focused on promoting interdisciplinary research and innovation in the neurotech space.\nTheir mission is to support the growth of a vibrant and globally recognized neurotechnology system driven by local talent."
 	},
 	{
-		"npName": "Relay For Life",
-		"npLink": "https://support.cancer.ca/site/TR/?pg=entry&fr_id=28065",
-		"npImage": "/nonprofits/relayForLife.png",
-		"npDescription": "The Canadian Cancer Society Relay For Life is an annual fundraising event that brings together communities across the country to support a future where no one fears cancer."
-	},
-	{
-		"npName": "TCLI Foundation",
-		"npLink": "https://tclifoundation.ca/",
-		"npImage": "/nonprofits/TCLI.png",
-		"npDescription": "TCLI Foundation is a registered non-profit organization in Canada geared towards effecting societal changes through literature, arts and culture. Building a strong community and reinforcing shared spaces to aid one another, towards strength, freedom, independence and satisfaction."
+		"npName": "Calgary UX",
+		"npImage": "/nonprofits/calgaryUX.png",
+		"npDescription": "Calgary UX is a collaborative community focused on building meaningful relationships and skills. Through volunteer opportunities, members work together to enhance their collective expertise while making a positive impact on local businesses and nonprofits.\nTheir team is committed to shaping the future of UX in the city and fostering innovation."
 	}
 ]

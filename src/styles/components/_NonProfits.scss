@@ -31,20 +31,10 @@ p {
 	width: calc(33.3% - 2rem);
 	min-width: 15rem;
 
-	a {
-		width: 15rem;
-		height: 15rem;
-		margin: auto;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		overflow: hidden;
-		padding: 2rem;
-
-		img {
-			width: auto;
-			height: 100%;
-		}
+	img {
+		width: auto;
+		height: 12rem;
+		margin: 2rem auto;
 	}
 
 	h4 {
@@ -52,9 +42,5 @@ p {
 		font-size: var(--fs-300);
 		line-height: 1;
 		margin-bottom: 1rem;
-	}
-
-	p {
-		// text-align: justify;
 	}
 }

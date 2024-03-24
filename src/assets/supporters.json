@@ -1,49 +1,31 @@
 {
 	"platinum": [],
 
-	"gold": [
-		{
-			"sponsorName": "IronSight",
-			"sponsorLink": "https://ironsight.app/",
-			"sponsorImage": "/supporters/ironsight.png"
-		}
-	],
+	"gold": [],
 
-	"silver": [
-		{
-			"sponsorName": "Dotdash",
-			"sponsorLink": "https://www.dotdashmeredith.com/",
-			"sponsorImage": "/supporters/dotdash.png"
-		},
-		{
-			"sponsorName": "Leading Learners",
-			"sponsorLink": "https://www.leading-learners.com/",
-			"sponsorImage": "/supporters/leadingLearners.png"
-		}
-	],
+	"silver": [],
 
-	"bronze": [],
-
-	"partner": [
+	"bronze": [
 		{
-			"sponsorName": "Voiceflow",
+			"sponsorName": "Redbell",
 			"sponsorLink": "https://www.voiceflow.com/",
-			"sponsorImage": "/supporters/voiceflow.svg"
+			"sponsorImage": "/supporters/redbull.png"
+		}
+	],
+
+	"special thanks": [
+		{
+			"sponsorName": "Student Innovation Center",
+			"sponsorLink": "https://www.ualberta.ca/student-innovation-centre/index.html",
+			"sponsorImage": "/supporters/sic.png"
 		},
 		{
-			"sponsorName": "Startup Edmonton",
-			"sponsorLink": "https://www.startupedmonton.com/",
-			"sponsorImage": "/supporters/startupEdmonton.png"
+			"sponsorName": "Blueprint",
+			"sponsorImage": "/supporters/blueprint.png"
 		},
 		{
-			"sponsorName": "Google",
-			"sponsorLink": "https://about.google/",
-			"sponsorImage": "/supporters/google.png"
-		},
-		{
-			"sponsorName": "IterateUX",
-			"sponsorLink": "https://discord.com/invite/eBCzDMK",
-			"sponsorImage": "/supporters/iterateUX.png"
+			"sponsorName": "CompE Club",
+			"sponsorImage": "/supporters/compe.png"
 		}
 	]
 }

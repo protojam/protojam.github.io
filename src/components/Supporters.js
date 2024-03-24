@@ -12,7 +12,7 @@ const Supporters = () => {
 
 				<h2 className="section-title">COMING SOON!</h2>
 
-				{/* <ul className="tier-list">
+				<ul className="tier-list">
 					{Object.keys(supporters).map((supporter_tier, i) => {
 						const tier_array = supporters[supporter_tier];
 
@@ -23,9 +23,13 @@ const Supporters = () => {
 									<ul className={`supporter-list ${supporter_tier}`}>
 										{tier_array.map(({ sponsorName, sponsorImage, sponsorLink }, i) => (
 											<li className="supporter" key={i}>
-												<a href={sponsorLink} target="_blank" rel="noreferrer">
+												{sponsorLink ? (
+													<a href={sponsorLink} target="_blank" rel="noreferrer">
+														<img src={sponsorImage} alt={`${sponsorName} logo`} />
+													</a>
+												) : (
 													<img src={sponsorImage} alt={`${sponsorName} logo`} />
-												</a>
+												)}
 											</li>
 										))}
 									</ul>
@@ -33,7 +37,7 @@ const Supporters = () => {
 							);
 						else return "";
 					})}
-				</ul> */}
+				</ul>
 
 				<p className="description">
 					Would you like to support ProtoJam? <br />

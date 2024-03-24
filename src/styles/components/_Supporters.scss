@@ -45,18 +45,20 @@ article {
 	flex-wrap: wrap;
 	gap: 2rem;
 	justify-content: center;
+	margin: auto;
 	align-items: center;
 	list-style: none;
 
-	.supporter a {
-		display: block;
-		background: var(--clr-light-100);
+	img {
+		padding: 0.75rem;
 		border-radius: 1rem;
-		padding: 0.75rem 1.5rem;
-
-		img {
-			margin: auto;
-		}
+		background: var(--clr-light-100);
+		display: block;
+		max-height: 10rem;
+		max-width: 20rem;
+		margin: auto;
+		height: height;
+		width: auto;
 	}
 
 	&.platinum .supporter {

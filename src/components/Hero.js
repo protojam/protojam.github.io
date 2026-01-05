@@ -10,9 +10,9 @@ const Hero = () => {
 				<article>
 					<h1 className="hero-title">ProtoJam 2024</h1>
 					<p className="hero-description">
-						A virtual UX/UI Designathon promoting technology for good.
+						A 36 hour in-person hackathon dedicated to empowering women and gender-diverse individuals to grow as innovators, leaders, and creative-thinkers in a traditionally underrepresented industry.
 					</p>
-					<p className="hero-date">March 22-24, 2024</p>
+					<p className="hero-date">March 6-8, 2026</p>
 					<a href="#register" className="solid">
 						Register Now!
 					</a>

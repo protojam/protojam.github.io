@@ -12,14 +12,14 @@ const Footer = () => (
 					<p>Questions or Concerns?</p>
 					{/* <a className="solid" href="mailto:protojam@adasteam.ca"> */}
 					<a className="solid" href="mailto:adasteam@ualberta.ca">
-						Contact ProtoJam
+						Contact AdaHacks
 					</a>
 				</div>
 
 				<div className="adas-team">
 					<p>
-						ProtoJam is an initiative created by Ada's Team, a student group from the University of
-						Alberta that seeks to promote diversity in S.T.E.A.M, particularly in the tech industry.
+						AdaHacks is an initiative created by Ada's Team, a student group from the University of
+						Alberta that seeks to promote diversity and inclusivity in technology.
 					</p>
 
 					<div className="contact-info">

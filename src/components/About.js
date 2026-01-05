@@ -18,37 +18,12 @@ const About = () => {
 				<article>
 					<h2>What is ProtoJam?</h2>
 					<p className="about-text">
-						ProtoJam 2024 is a three day long, no-code design competition - a designathon - where
-						students tackle design challenges focused on UX/UI design (user experience and user
-						interface).
+						AdaHacks is a 36-hour in-person hackathon dedicated to empowering women and gender-diverse individuals to grow as innovators, leaders, and creative-thinkers in a traditionally underrepresented industry. We aim to create a supportive environment where every hacker feels welcome. Everyone is welcome to participate!
 					</p>
 					<p className="about-text">
-						Technology for good - our theme for this year. We want to encourage young minds to use
-						their skills for social change, so our design challenges are centered around causes for
-						local non-profit organizations.
-					</p>
-					<p className="about-text">
-						Unleash your creativity and make a positive difference, Join us in person or virtually!
+						Everyone, regardless of gender identity, is welcome to participate!
 					</p>
 				</article>
-
-				{/* <div className="sticky-notes">
-					<img
-						className="sticky-note n1"
-						src={stickyNote1}
-						alt="Sticky note saying Students in highschool or university are invited to participate!"
-					/>
-					<img
-						className="sticky-note"
-						src={stickyNote2}
-						alt="Sticky note saying ProtoJam is completely free & virtual!"
-					/>
-					<img
-						className="sticky-note"
-						src={stickyNote3}
-						alt="Sticky note saying Every skill level is welcome - we'll provide workshops and resources to set you up for success!"
-					/>
-				</div> */}
 			</section>
 
 			<section className="about-steps">
@@ -66,10 +41,9 @@ const About = () => {
 					<li className="step">
 						<img src={step2} alt="Woman picking one multiple choice option" />
 						<article>
-							<h3 className="step-name">2. Choose a Challenge</h3>
+							<h3 className="step-name">2. Choose a Stream and a Challenge</h3>
 							<p className="step-description">
-								Choose a design challenge by a nonprofit! You'll be given detailed instructions
-								about the task.
+								Choose a stream (UI/UX or Software Development) and select a challenge! You'll be given detailed instructions or a prompt about the task.
 							</p>
 						</article>
 					</li>
@@ -78,8 +52,7 @@ const About = () => {
 						<article>
 							<h3 className="step-name">3. Design and Create</h3>
 							<p className="step-description">
-								Get to sketching, then use your favourite prototyping tool (eg. Figma, Adobe XD,
-								Sketch) to create your design masterpiece!
+								Get to brainstorming, coding, building, and designing, using your favourite languages and tools to create your masterpiece!
 							</p>
 						</article>
 					</li>

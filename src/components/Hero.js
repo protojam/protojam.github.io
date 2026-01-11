@@ -8,7 +8,7 @@ const Hero = () => {
 				<img className="hero-image" src={hero} alt="Aliens helping each other decorate a space" />
 
 				<article>
-					<h1 className="hero-title">ProtoJam 2024</h1>
+					<h1 className="hero-title">AdaHacks 2026</h1>
 					<p className="hero-description">
 						A 36 hour in-person hackathon dedicated to empowering women and gender-diverse individuals to grow as innovators, leaders, and creative-thinkers in a traditionally underrepresented industry.
 					</p>

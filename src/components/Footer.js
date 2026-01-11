@@ -10,7 +10,6 @@ const Footer = () => (
 			<div className="footer-container max-width">
 				<div className="contact" id="contact">
 					<p>Questions or Concerns?</p>
-					{/* <a className="solid" href="mailto:protojam@adasteam.ca"> */}
 					<a className="solid" href="mailto:adasteam@ualberta.ca">
 						Contact AdaHacks
 					</a>

@@ -37,7 +37,7 @@ const Register = () => {
 			<article className="max-width">
 				<h2 className="section-title">Register</h2>
 				<p className="section-description">
-					Join in on the fun for ProtoJam 2024!
+					Join in on the fun for AdaHacks 2026!
 					<br />
 					Registration open until March 17 @ 11:59 PM MDT.
 				</p>

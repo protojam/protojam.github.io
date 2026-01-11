@@ -16,7 +16,7 @@ const About = () => {
 		<section className="About" id="about">
 			<section className="about-description max-width">
 				<article>
-					<h2>What is ProtoJam?</h2>
+					<h2>What is AdaHacks?</h2>
 					<p className="about-text">
 						AdaHacks is a 36-hour in-person hackathon dedicated to empowering women and gender-diverse individuals to grow as innovators, leaders, and creative-thinkers in a traditionally underrepresented industry. We aim to create a supportive environment where every hacker feels welcome. Everyone is welcome to participate!
 					</p>

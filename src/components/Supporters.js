@@ -7,7 +7,7 @@ const Supporters = () => {
 			<article className="max-width">
 				<h2 className="section-title">Supporters</h2>
 				<p className="section-description">
-					Special thanks to our wonderful supporters of ProtoJam!
+					Special thanks to our wonderful supporters of AdaHacks!
 				</p>
 
 				<h2 className="section-title">COMING SOON!</h2>
@@ -40,7 +40,7 @@ const Supporters = () => {
 				</ul>
 
 				<p className="description">
-					Would you like to support ProtoJam? <br />
+					Would you like to support AdaHacks? <br />
 					{/* Feel free to <a href="mailto:protojam@adasteam.ca">contact</a> us, we'd love to have you! */}
 					Feel free to <a href="mailto:adasteam@ualberta.ca">contact</a> us, we'd love to have you!
 				</p>

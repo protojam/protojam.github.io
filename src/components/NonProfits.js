@@ -7,7 +7,7 @@ const NonProfits = () => {
 			<article className="max-width">
 				<h2 className="section-title">Design Challenge Hosts</h2>
 				<p className="section-description">
-					ProtoJam features design challenges hosted by the following organizations!
+					AdaHacks features design challenges hosted by the following organizations!
 				</p>
 
 				<ul className="nonprofit-list">

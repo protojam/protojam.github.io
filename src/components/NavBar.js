@@ -21,7 +21,7 @@ const NavBar = () => {
 			<nav className="max-width">
 				{/* Navigation Logo */}
 				<a href="/">
-					<img className="nav-logo" src={logo} alt="ProtoJam Logo" />
+					<img className="nav-logo" src={logo} alt="AdaHacks Logo" />
 				</a>
 
 				{/* Hamburger button */}

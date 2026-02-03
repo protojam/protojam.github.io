@@ -10,9 +10,9 @@ const Hero = () => {
 				<article>
 					<h1 className="hero-title">AdaHacks 2026</h1>
 					<p className="hero-description">
-						A 36 hour in-person hackathon dedicated to empowering women and gender-diverse individuals to grow as innovators, leaders, and creative-thinkers in a traditionally underrepresented industry.
+						A 24 hour in-person hackathon dedicated to empowering women and gender-diverse individuals to grow as innovators, leaders, and creative-thinkers in a traditionally underrepresented industry.
 					</p>
-					<p className="hero-date">March 6-8, 2026</p>
+					<p className="hero-date">March 7-8, 2026</p>
 					<a href="#register" className="solid">
 						Register Now!
 					</a>

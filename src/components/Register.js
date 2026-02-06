@@ -35,17 +35,17 @@ const Register = () => {
 	return (
 		<section className="Register" id="register">
 			<article className="max-width">
-				<h2 className="section-title">Register</h2>
+				<h2 className="section-title">Apply</h2>
 				<p className="section-description">
 					Join in on the fun for AdaHacks 2026!
 					<br />
-					Registration open until March 17 @ 11:59 PM MDT.
+					Applications open until February 23 @ 11:59 PM MDT.
 				</p>
 				<p className="section-description">
-					You can register below or on{" "}
-					<a href="https://www.eventbrite.ca/e/protojam-2024-tickets-823318797687">Eventbrite</a>.
+					Apply here: {" "}
+					<a href="https://www.eventbrite.ca/e/protojam-2024-tickets-823318797687">Application Link</a>.
 				</p>
-				<div className="eventbrite" id="eventbrite-widget-container-823318797687"></div>
+				{/* <div className="eventbrite" id="eventbrite-widget-container-823318797687"></div> */}
 			</article>
 		</section>
 	);

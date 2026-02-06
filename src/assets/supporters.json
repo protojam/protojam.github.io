@@ -7,9 +7,9 @@
 
 	"bronze": [
 		{
-			"sponsorName": "Redbell",
-			"sponsorLink": "https://www.voiceflow.com/",
-			"sponsorImage": "/supporters/redbull.png"
+			"sponsorName": "RUNWITHIT Synthetics",
+			"sponsorLink": "https://rwisynthetics.com/",
+			"sponsorImage": "/supporters/RWISynthetics.png"
 		}
 	],
 
@@ -18,14 +18,6 @@
 			"sponsorName": "Student Innovation Center",
 			"sponsorLink": "https://www.ualberta.ca/student-innovation-centre/index.html",
 			"sponsorImage": "/supporters/sic.png"
-		},
-		{
-			"sponsorName": "Blueprint",
-			"sponsorImage": "/supporters/blueprint.png"
-		},
-		{
-			"sponsorName": "CompE Club",
-			"sponsorImage": "/supporters/compe.png"
 		}
 	]
 }

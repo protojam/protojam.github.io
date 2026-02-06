@@ -18,10 +18,10 @@ const About = () => {
 				<article>
 					<h2>What is AdaHacks?</h2>
 					<p className="about-text">
-						AdaHacks is a 24-hour in-person hackathon dedicated to empowering women and gender-diverse individuals to grow as innovators, leaders, and creative-thinkers in a traditionally underrepresented industry. We aim to create a supportive environment where every hacker feels welcome. Everyone is welcome to participate!
+						AdaHacks is a 24-hour in-person hackathon dedicated to empowering women and gender-diverse individuals to grow as innovators, leaders, and creative-thinkers in a traditionally underrepresented industry. We aim to create a supportive environment where every hacker feels welcome.
 					</p>
 					<p className="about-text">
-						Everyone, regardless of gender identity, is welcome to participate!
+						Everyone, regardless of gender or experience level, is welcome to participate!
 					</p>
 				</article>
 			</section>
@@ -43,7 +43,7 @@ const About = () => {
 						<article>
 							<h3 className="step-name">2. Choose a Stream and a Challenge</h3>
 							<p className="step-description">
-								Choose a stream (UI/UX or Software Development) and select a challenge! You'll be given detailed instructions or a prompt about the task.
+								Choose a stream to compete in, UI/UX or the general stream!
 							</p>
 						</article>
 					</li>

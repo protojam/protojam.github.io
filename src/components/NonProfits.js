@@ -7,9 +7,13 @@ const NonProfits = () => {
 			<article className="max-width">
 				<h2 className="section-title">Design Challenge Hosts</h2>
 				<p className="section-description">
-					AdaHacks features design challenges hosted by the following organizations!
+					AdaHacks UI/UX stream features design challenges hosted by the following organizations!
 				</p>
 
+				<p className="section-description">
+					COMING SOON!
+				</p>
+{/* 
 				<ul className="nonprofit-list">
 					{nonprofits.map(({ npName, npDescription, npLink, npImage }, i) => (
 						<li className="nonprofit-card" key={npName}>
@@ -18,7 +22,7 @@ const NonProfits = () => {
 							<p className="description">{npDescription}</p>
 						</li>
 					))}
-				</ul>
+				</ul> */}
 			</article>
 
 			<img className="divider" src={divider} aria-hidden="true" alt="" />

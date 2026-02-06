@@ -10,7 +10,7 @@ const Supporters = () => {
 					Special thanks to our wonderful supporters of AdaHacks!
 				</p>
 
-				<h2 className="section-title">COMING SOON!</h2>
+				{/* <h2 className="section-title">COMING SOON!</h2> */}
 
 				<ul className="tier-list">
 					{Object.keys(supporters).map((supporter_tier, i) => {

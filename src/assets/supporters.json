@@ -15,6 +15,11 @@
 
 	"special thanks": [
 		{
+			"sponsorName": "Edmonton Regional Innovation Network",
+			"sponsorLink": "https://www.edmontonrin.ca/",
+			"sponsorImage": "/supporters/ERIN.png"
+		},
+		{
 			"sponsorName": "Student Innovation Center",
 			"sponsorLink": "https://www.ualberta.ca/student-innovation-centre/index.html",
 			"sponsorImage": "/supporters/sic.png"

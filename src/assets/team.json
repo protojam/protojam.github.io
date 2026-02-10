@@ -2,46 +2,55 @@
 	[
 		{
 			"name": "Caly Zheng",
-			"title": "Executive Director",
+			"title": "President",
 			"image": "/team/Caly.jpeg"
 		},
 		{
 			"name": "Mark Maligalig",
-			"title": "Executive Director",
+			"title": "VP Administration",
 			"image": "/team/Mark.png"
+		},
+		{	"name": "Kashish Gupta",
+			"title": "VP Academics",
+			"image": "/team/Kashish.jpg"
 		}
 	],
 	[
 		{
 			"name": "Samia Rahman",
-			"title": "Outreach Director",
+			"title": "VP Conference Finance",
 			"image": "/team/Samia.jpg"
 		},
 		{
 			"name": "Melrita Cyriac",
-			"title": "Outreach Director",
+			"title": "VP Communications",
 			"image": "/team/Melrita.jpeg"
 		},
 		{
-			"name": "Aara Likun Vanatia",
-			"title": "Finance Director",
-			"image": "/team/Aara.jpg"
+			"name": "Ravinder Kaur",
+			"title": "VP Conference Operations",
+			"image": "/team/Rav.jpg"
 		}
 	],
 	[
 		{
-			"name": "Ravinder Kaur",
-			"title": "Operations",
-			"image": "/team/Rav.jpg"
+			"name": "Angela Solanki",
+			"title": "VP Industry Outreach",
+			"image": "/team/Angela.jpg"
+		},
+		{
+			"name": "Aara Likun Vanatia",
+			"title": "VP Finance",
+			"image": "/team/Aara.jpg"
 		},
 		{
 			"name": "Selena Chainani",
-			"title": "Media",
+			"title": "VP Digiatl Media",
 			"image": "/team/Selena.jpg"
 		},
 		{
 			"name": "Mackenzie Luong",
-			"title": "Outreach",
+			"title": "VP Campus Outreach",
 			"image": "/team/MacKenzie.jpg"
 		}
 

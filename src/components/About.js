@@ -43,12 +43,12 @@ const About = () => {
 						<article>
 							<h3 className="step-name">2. Choose a Stream and a Challenge</h3>
 							<p className="step-description">
-								Choose a stream to compete in, UI/UX or the general stream!
+								Choose a stream to compete in, UI/UX or the general software stream!
 							</p>
 						</article>
 					</li>
 					<li className="step">
-						<img src={step3} alt="Man in room working on computer" />
+						<img src={step3} alt="Person in room working on computer" />
 						<article>
 							<h3 className="step-name">3. Design and Create</h3>
 							<p className="step-description">

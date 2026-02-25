@@ -34,7 +34,7 @@ const About = () => {
 						<article>
 							<h3 className="step-name">1. Form a Team</h3>
 							<p className="step-description">
-								Gather in teams of 2-5 to work with all weekend. Don't forget your snazzy team name!
+								Gather in teams of 1-4 to work with all weekend. Don't forget your snazzy team name!
 							</p>
 						</article>
 					</li>

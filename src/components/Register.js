@@ -43,7 +43,7 @@ const Register = () => {
 				</p>
 				<p className="section-description">
 					Apply here: {" "}
-					<a href="https://www.eventbrite.ca/e/protojam-2024-tickets-823318797687">Application Link</a>.
+					<a href="https://bit.ly/adahacks2026">Application Link</a>.
 				</p>
 				{/* <div className="eventbrite" id="eventbrite-widget-container-823318797687"></div> */}
 			</article>

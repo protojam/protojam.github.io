@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../assets/logos/logo_purpleoutline.svg";
+import logo from "../assets/logos/logo_adahacks_horizontal_purple.png";
 
 const NavBar = () => {
 	const [hamburgerOpen, setHamburgerOpen] = useState(false);

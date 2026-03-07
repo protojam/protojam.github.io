@@ -10,10 +10,9 @@ const NonProfits = () => {
 					AdaHacks UI/UX stream features design challenges hosted by the following organizations!
 				</p>
 
-				<p className="section-description">
+				{/* <p className="section-description">
 					COMING SOON!
-				</p>
-{/* 
+				</p> */}
 				<ul className="nonprofit-list">
 					{nonprofits.map(({ npName, npDescription, npLink, npImage }, i) => (
 						<li className="nonprofit-card" key={npName}>
@@ -22,7 +21,7 @@ const NonProfits = () => {
 							<p className="description">{npDescription}</p>
 						</li>
 					))}
-				</ul> */}
+				</ul> 
 			</article>
 
 			<img className="divider" src={divider} aria-hidden="true" alt="" />

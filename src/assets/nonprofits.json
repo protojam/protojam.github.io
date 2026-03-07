@@ -1,12 +1,6 @@
 [
 	{
-		"npName": "NeurAlbertaTech",
-		"npImage": "/nonprofits/nat.png",
-		"npDescription": "NeurAlbertaTech (NAT) is Alberta’s largest neurotechnology innovator network, focused on promoting interdisciplinary research and innovation in the neurotech space.\nTheir mission is to support the growth of a vibrant and globally recognized neurotechnology system driven by local talent."
-	},
-	{
-		"npName": "Calgary UX",
-		"npImage": "/nonprofits/calgaryUX.png",
-		"npDescription": "Calgary UX is a collaborative community focused on building meaningful relationships and skills. Through volunteer opportunities, members work together to enhance their collective expertise while making a positive impact on local businesses and nonprofits.\nTheir team is committed to shaping the future of UX in the city and fostering innovation."
+		"npImage": "/nonprofits/BelongInclusivity.png",
+		"npDescription": "BelongInclusivity is a nonprofit organization dedicated to dismantling systemic barriers rooted in bias, stigma, and stereotypes."
 	}
 ]
